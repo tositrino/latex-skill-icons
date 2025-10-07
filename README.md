@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="https://i.imgur.com/X8E0RnO.png" />
+  <img src="X8E0RnO.png" />
 </p>
  
 ## Introduction
@@ -52,33 +52,10 @@ This package is distributed under the MIT License. See the `LICENSE` file for de
 ## Result:
 
 <p align="center">
-  <img src="https://i.imgur.com/EgEbtlB.png" />
+  <img src="EgEbtlB.png" />
 </p>
- 
 
+# Full icons:
+  - https://github.com/tositrino/latex-skill-icons/blob/main/skillicons.pdf
+  - https://github.com/tositrino/latex-skill-icons/blob/main/skilltable.pdf
 
-
-[![enter image description here][3]][1]
-[![enter image description here][4]][1]
-[![enter image description here][5]][1]
-[![enter image description here][6]][1]
-[![enter image description here][7]][1]
-[![enter image description here][8]][1]
-[![enter image description here][9]][1]
-[![enter image description here][10]][1]
-
-
-
-[1]: https://raw.githubusercontent.com/AnMnv/AnMnv.github.io/master/eBook.pdf
-[2]: https://github.com/AnMnv/eBook/blob/main/images/eBook-01.png
-
-[3]: https://i.imgur.com/xlqeFLH.png
-[4]: https://i.imgur.com/AHP8dkK.png
-[5]: https://i.imgur.com/oqQggz2.png
-[6]: https://i.imgur.com/8kEzLZz.png
-[7]: https://i.imgur.com/Tsjo0Ez.png
-[8]: https://i.imgur.com/TF6v5JP.png
-[9]: https://i.imgur.com/nMFYPEh.png
-[10]: https://i.imgur.com/mdAhKtY.png
-
-# Full list is available on https://github.com/LelouchFR/skill-icons

@@ -1,0 +1,63 @@
+\documentclass[11pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{skillicons}
+\usepackage{multicol}
+\usepackage{epstopdf}
+\usepackage{longtable}
+%
+% Note : compile with 
+%  pdflatex --shell-escape <name>
+% or 
+%  latex <name> && dvips -Ppdf <name> &&  pvipdf <name>
+%
+
+%
+% some helpers
+\DeclareUnicodeCharacter{2500}{\makebox[\fontcharwd\font`x][l]{$-$}}
+\DeclareUnicodeCharacter{2502}{\makebox[\fontcharwd\font`x][l]{$|$}}
+\DeclareUnicodeCharacter{250C}{\makebox[\fontcharwd\font`x][l]{$\lceil$}}
+\DeclareUnicodeCharacter{25BA}{\makebox[\fontcharwd\font`x][l]{$\rightarrow$}}
+\DeclareUnicodeCharacter{2514}{\makebox[\fontcharwd\font`x][l]{$\lfloor$}}
+\DeclareUnicodeCharacter{2524}{\makebox[\fontcharwd\font`x][c]{\llap{$-$}$|$}}
+%
+\newcommand{\myhash}{\raisebox{\depth}{\#}}
+%
+\newcolumntype{C}[1]{>{\small\centering\arraybackslash}p{#1}}
+\newcolumntype{N}[1]{>{\small\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\small\raggedright}p{#1}}
+%
+%
+\begin{document}
+%
+%\begin{minipage}{0.9\textwidth}
+%\begin{tabular}[t]{C{0.08\textwidth} L{0.2\textwidth} N{0.06\textwidth} C{0.02\textwidth} C{0.02\textwidth} C{0.02\textwidth} C{0.02\textwidth}}
+\begin{longtable}[t]{C{0.08\textwidth} L{0.2\textwidth} N{0.06\textwidth} C{0.02\textwidth} C{0.02\textwidth} C{0.02\textwidth} C{0.02\textwidth}}
+\multicolumn{2}{l}{functional skills} &  T & 1 & 2  & 3  & 4  \\ \hline
+%%
+\input{skilltable.inc}
+%%
+%\end{tabular}
+\end{longtable}
+%\end{minipage}  
+%
+\vfill
+\begin{tiny}
+\textbf{Competence levels (1 to 4)\nolinebreak[4]}
+\begin{enumerate}
+  \item Low competence with regard to knowledge/experience in the competence level
+  \item Increased competence with regard to knowledge/experience of the competence level
+  \item High competence in knowledge/experience of the competence level
+  \item Very high competence with regard to knowledge/experience in the competence level\nopagebreak
+\end{enumerate}
+\begin{itemize}
+  \item{T} time of experienec in years
+\end{itemize}
+%
+\end{tiny}
+\normalsize
+%
+\end{document}
+

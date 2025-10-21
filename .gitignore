@@ -2,7 +2,7 @@
 # ignore the intermediate_data directory
 #
 intermediate_data
-.aux
-.log
-.out
+*.aux
+*.log
+*.out
 

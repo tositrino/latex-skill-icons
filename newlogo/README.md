@@ -5,6 +5,11 @@ to add new skill logos do the following:
 - get logo for the skill, i.e. from https://www.svgrepo.com - as an example we use NewLogo.svg and
   put it into the newlogo directory.
 
+- delete old data
+  ```
+  rm skill-icons/skillicons_NewLogo*
+  ```
+
 - convert to eps with imagemagick
   ```
   convert newlogo/NewLogo.svg -resize 92x92 skill-icons/skillicons_NewLogo.eps
